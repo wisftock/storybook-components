@@ -42,3 +42,8 @@ export const FormControl = Template.bind({});
 FormControl.args = {
   fontColor: '#219857',
 };
+
+export const BackgroundColor = Template.bind({});
+BackgroundColor.args = {
+  backgroundColor: 'black',
+};
