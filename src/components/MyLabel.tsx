@@ -13,16 +13,16 @@ export interface LabelProps {
   /**
    * documentation
    */
-  allCaps: boolean;
+  allCaps?: boolean;
   /**
    * documentation
    */
-  color: 'text-primary' | 'text-secondary' | 'text-tertiary';
+  color?: 'text-primary' | 'text-secondary' | 'text-tertiary';
   /**
    * documentation
    */
   fontColor?: string;
-  backgroundColor: string;
+  backgroundColor?: string;
 }
 
 const MyLabel = ({
