@@ -36,4 +36,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.hdp}}
           NPM_TOKEN: ${{secrets.NPMHDPTOKEN}}
-        run: npx sematic-release
+        run: npx semantic-release
