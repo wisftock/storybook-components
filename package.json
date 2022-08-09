@@ -43,7 +43,7 @@
     "build-storybook": "build-storybook",
     "chromatic": "npx chromatic --project-token=64d6e1475bee",
     "clean": "rimraf dist/",
-    "copy-file": "copyfiles -u 1 src/**/.*css dist/"
+    "copy-file": "copyfiles -u 1 src/**/*.css dist/"
   },
   "eslintConfig": {
     "extends": [
