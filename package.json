@@ -43,8 +43,7 @@
     "build-storybook": "build-storybook",
     "chromatic": "npx chromatic --project-token=64d6e1475bee",
     "clean": "rimraf dist/",
-    "copy-file": "copyfiles -u 1 src/**/.*css dist/",
-    "semantic-release": "^19.0.3"
+    "copy-file": "copyfiles -u 1 src/**/.*css dist/"
   },
   "eslintConfig": {
     "extends": [
@@ -80,13 +79,15 @@
     "copyfiles": "^2.4.1",
     "css-loader": "^6.7.1",
     "postcss": "^8.4.16",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "semantic-release": "^19.0.3"
   },
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
     "@semantic-release/github",
+    "@semantic-release/npm",
     "@semantic-release/git"
   ],
   "readme": "ERROR: No README data found!",
